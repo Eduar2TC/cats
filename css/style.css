@@ -1,0 +1,35 @@
+body{
+  background-color: #b4b4b4;
+  font-family: 'Fira Sans', sans-serif;
+}
+.container{
+  margin: 30px auto;
+  background-color: #e4e4e4;
+  height: 300px;
+  width: 80%;
+  max-width: 640px;
+  min-width: 300px;
+  border-radius: 10px;
+  overflow:hidden;
+}
+.data{
+  display: flex;
+  justify-content: space-between;
+}
+.title, .date{
+  padding: 2.5%;
+  font-style: 
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.banner{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: auto;
+  height: 240px;
+  background-color: #0f0f0f;
+  background-image: url("https://fontmeme.com/permalink/210505/ee1ac8e1dbb0c20d7ca2e9828db39c4c.png"),url("http://logo.clearbit.com/www.whiskas.com"), url("https://loremflickr.com/640/360");
+  background-repeat: no-repeat;
+  background-position: bottom right, center, top left;
+}
